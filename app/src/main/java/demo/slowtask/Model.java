@@ -17,7 +17,7 @@ public class Model {
     @WorkerThread
     public String getData() {
         try {
-            Thread.sleep(new Random().nextInt(5000));
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
