@@ -1,6 +1,6 @@
 package demo.slowtask
 
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 
 /**
  * A fake source of information. All calls block the thread it runs on so don't
